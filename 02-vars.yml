@@ -5,5 +5,5 @@
   tasks:
     - name: Print variable
       ansible.builtin.debug:
-        msg: URL = {{ URL }}
+        msg: URL = $$ URL $$
  ## Ansible access variable with two flower brackets
